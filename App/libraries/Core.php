@@ -16,7 +16,7 @@
             $url =  $_GET['url'];
             $url = rtrim($url,'/');                         //rtrim = right space remove
             $url = filter_var($url,FILTER_SANITIZE_URL);    //filter string or number
-            $url = explode("/",$url);
+            $url = explode("/",$url);                       //Break string into Array
             return $url;
         }
     }
