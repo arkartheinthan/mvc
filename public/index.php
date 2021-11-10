@@ -8,7 +8,6 @@
 
     error_reporting(E_ALL);
     ini_set('display_errors','1');
-
-    require "../App/libraries/Core.php";
+    require "../App/init.php";
 
     $init = new Core();
